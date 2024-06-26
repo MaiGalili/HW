@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="./js.js"></script>
+    <title>DOM#1</title>
+</head>
+<main>
+
+    <section>
+        <button id="clickMeButton" onclick="handleClickMe()">Click me</button>
+    </section>
+
+    <section>
+        <p id="paragraph1">This is First Paragraph</p>
+        <p id="paragraph2">This is Second Paragraph</p>
+        <p id="paragraph3">This is Third Paragraph</p>
+        <button onclick="toggleParagraph('paragraph1')">Add First</button>
+        <button onclick="toggleParagraph('paragraph2')">Add Second</button>
+        <button onclick="toggleParagraph('paragraph3')">Add Third</button>
+    </section>
+
+    <section>
+        <p id="text">This is a simple paragraph</p>
+        <input type="text" id="classInput" placeholder="Enter class name here">
+        <button onclick="addClass()">Add Class</button>
+    </section>
+</main>
